@@ -1,0 +1,86 @@
+* {
+    background-color: gray;
+}
+
+#bonito {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* .header {
+    background-color: blue;
+    height: 150px;
+    margin: 0;
+    
+} */
+
+h1{
+    background-color: black;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 80px;
+}
+
+#feio {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#inteligente {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.imagens {
+    align-items: center;
+}
+
+#comida {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.rodape {
+    font-style: italic;
+    text-align: center;
+    background-color: rgb(134, 123, 123);
+    height: 100px;
+}
+
+.rodape p {
+    margin-bottom: 0px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  
+}
+
+hr {
+    border: 1px solid black;
+}
