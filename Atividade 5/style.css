@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 150px 150px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#manchete {
+    text-align: center;
+}
+
+#imagem {
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+#legenda {
+    font-size: 15px italic;
+}
+
+#texto {
+    margin: 40px 100px 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+#casosSemelhantes {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    border-left: 120px;
+}
+
+
+li {
+    color: rgb(42, 42, 181);
+    border-left: 10px;
+}
+
+#rodape {
+    text-align: right;
+    background-color: rgb(185, 69, 69);
+    color: white;
+    padding: 15px;
+    font-size: 20px
+}
+
+body {
+    background-color: rgb(228, 216, 202);
+}
+
+header {
+    background-color: red;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+#linha {
+    border: dashed black;
+}
+
