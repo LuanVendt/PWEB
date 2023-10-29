@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+}
+
+.items-header {
+  text-decoration: none;
+  margin: 2rem;
+  color: white;
+  font-size: 1.25rem;
+}
+
+header {
+  background-color: #8b0010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-text: center;
+  padding: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .items-header {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+
+  header {
+    padding: 0.5rem;
+  }
+}
+
+body {
+  background-color: rgb(247, 243, 243);
+}
+
+#logo {
+  padding: 5px;
+  width: auto;
+  height: 10rem;
+  margin: 2rem;
+  clear: both;
+}
+
+#imagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ads {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img {
+  border-radius: 5%;
+  width: auto;
+  height: auto;
+  margin: 2rem;
+  clear: both;
+  border: 4px solid black;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#subtitulo {
+  text-align: center;
+}
+
+#apresentacao {
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 1.25rem;
+  text-align: justify;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#cursos {
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#disciplinas {
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.materias {
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.semestre {
+  font-size: 1.25rem;
+}
+
+#imgProfessor {
+  width: 2rem;
+  vertical-align: middle;
+}
+
+#professores {
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+#professores ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#professores ul li {
+  margin-right: 2rem;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+#professores ul li h3 {
+  margin-bottom: 10px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  #professores ul li {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    margin-right: 0;
+    max-width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  #professores ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#rodape {
+  text-align: right;
+  background-color: #8b0010;
+  color: rgb(247, 243, 243);
+  padding: 15px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  #logo {
+    width: 50%;
+  }
+
+  #img {
+    width: 50%;
+  }
+
+  #apresentacao {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #cursos {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #disciplinas {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .materias {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
